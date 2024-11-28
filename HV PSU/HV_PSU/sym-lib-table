@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "TPS2814D")(type "KiCad")(uri "${KIPRJMOD}/Libs/TPS2814D/TPS2814D.kicad_sym")(options "")(descr ""))
+  (lib (name "HV_xformer")(type "KiCad")(uri "${KIPRJMOD}/Libs/HV_xformer.kicad_sym")(options "")(descr ""))
 )
