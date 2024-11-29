@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "TPS2814D")(type "KiCad")(uri "${KIPRJMOD}/Libs/TPS2814D")(options "")(descr ""))
+  (lib (name "HV_caps")(type "KiCad")(uri "${KIPRJMOD}/Libs/HV_caps.pretty")(options "")(descr ""))
+  (lib (name "HV_xformer")(type "KiCad")(uri "${KIPRJMOD}/Libs/HV_xformer.pretty")(options "")(descr ""))
+)
