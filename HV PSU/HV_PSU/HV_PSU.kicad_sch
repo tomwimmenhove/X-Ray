@@ -2525,11 +2525,11 @@
     (pin "1" (uuid f60b1f43-d972-4cbd-a27f-b19632b672d1))
   )
 
-  (symbol (lib_id "Connector:Screw_Terminal_01x07") (at 17.78 59.69 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector:Screw_Terminal_01x07") (at 17.78 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1830fda6-2b6e-4a4c-a29f-36393253ca71)
     (property "Reference" "J1" (id 0) (at 17.78 49.6372 0))
-    (property "Value" "Screw_Terminal_01x07" (id 1) (at 17.78 49.6371 0)
+    (property "Value" "Screw_Terminal_01x07" (id 1) (at 17.78 69.7429 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-7-5.0-H_1x07_P5.00mm_Horizontal" (id 2) (at 17.78 59.69 0)
