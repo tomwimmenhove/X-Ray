@@ -1,2 +1,5 @@
 shit/
 HV PSU/HV_PSU/HV_PSU-backups/*
+**/*.zip
+**/*.bak
+
