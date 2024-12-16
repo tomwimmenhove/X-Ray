@@ -1,0 +1,17 @@
+#!/usr/sbin/algeblah
+;
+
+N = 8;
+I = 2E-3;
+f = 100E3;
+C = 1E-9 / 2;
+Vin = 12.5E3;
+
+# Equations taken from: https://www.voltagemultipliers.com/wp-content/uploads/2018/08/Multiplier-Design-Guideline.pdf
+;
+
+Vreg => I * (N^3 + (9 * N^2 / 4) + (N / 2)) / (12 * f * C);
+Vripple => I * (N^2 + N/2) / (8 * f * C);
+Vmin => Vin * N - Vreg - Vripple;
+Vmax => Vin * N - Vreg + Vripple;
+
